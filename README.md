@@ -1,7 +1,10 @@
 # semvergit
 
 Extremely naive way of generating SemVer2 releases from gitlog.
-Majors are tags, Minors are merges and Patches are commits.
+
+* Majors are tags
+* Minors are merges since last tag
+* Patches are commits since last merge
 
 Probably doesnt work everywhere.
 
